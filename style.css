@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    font-family: "Montserrat", sans-serif;
+}
+.hero-section{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: black rgba(0,0,0,0.5);
+    height: 100vh;
+    position: relative;
+    text-align: center ;
+}
+.hero-text{
+    /* color: white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.book-button, .more-section{
+    background-color: aqua;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.about-section{
+    float: left;
+    width: 50%;
+    margin: 0px 10px;
+}
+.about-section >h1{
+    text-align: center;
+    margin: 10px 0px;
+    text-decoration: underline;
+}
+.amenities{
+    text-align: center;
+    margin: 10px;
+}
+.amenities ul{
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    
+}
